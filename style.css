@@ -1,0 +1,94 @@
+body{
+    background-color: #1E1E20;
+}
+
+.container{
+    display: flex;
+    background-color: #1E1E20;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans Condensed'
+    
+}
+
+header{
+}
+.logo{}
+.title{
+    color: white;
+}
+.body{
+  
+}
+
+.users{
+    display: flex;
+    list-style: none;
+    width: 700px;
+    justify-content: space-between;
+}
+ul{
+    padding-inline-start: 0px;
+}
+.user{
+    width: 160px;
+    text-align: center;
+    align-items: center;
+    background-color:#1E1E20;
+    color: #9C9C9C;
+    font-size: 14px;
+    font-weight: 600;
+    
+
+}
+.user:hover{
+    color: white;
+    cursor: pointer;     
+    height: 160px;
+}
+
+#kfx{
+    border: none;
+}
+
+img:hover{
+    border: white 1px solid;
+}
+
+.btn{
+    width: 206px;
+    height: 50px;
+    color: #9C9C9C;
+    border-radius: 5px;
+    background-color: transparent;
+    border: #9C9C9C 1px solid;
+    cursor: pointer;
+    margin-top: 50px;
+   
+}
+button:hover{
+    color: black;
+    background-color: white;
+    border: 1px black solid;
+}
+
+#addUser{
+    width: 160px;
+    height: 160px;  
+    background-color: transparent;
+    color: #9C9C9C;
+    border-radius: 5px;
+    border: #9C9C9C 3px solid;
+
+}
+#addUser .material-icons{
+    font-size: 67px;
+}
+
+#addUser:hover{
+    color: black;
+    background-color: white;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
